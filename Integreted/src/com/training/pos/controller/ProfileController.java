@@ -16,11 +16,11 @@ import com.training.pos.service.ProfileService;
 
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/profile/")
 public class ProfileController {
 	@Autowired
 	ProfileService pfl;
-	@RequestMapping("/")
+	@RequestMapping("")
 	public ModelAndView showProfile() {
 		try {
 			List<ProfileBean> profile=pfl.getAllProfile();

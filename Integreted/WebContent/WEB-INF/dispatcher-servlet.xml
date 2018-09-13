@@ -47,9 +47,9 @@
 <property name="dataSource" ref="dataSource"/>
  <property name="annotatedClasses">
 <list>
-<!-- <value>com.training.pos.bean.CartBean</value>
+<!--  <value>com.training.pos.bean.CartBean</value> -->
 <value>com.training.pos.bean.CredentialsBean</value>
-<value>com.training.pos.bean.FoodBean</value> -->
+<value>com.training.pos.bean.FoodBean</value> 
 <value>com.training.pos.bean.OrderBean</value>
 <value>com.training.pos.bean.ProfileBean</value>
 <value>com.training.pos.bean.StoreBean</value> 
